@@ -47,6 +47,7 @@ div.beef > .section-title {
 div.sushi > .section-title {
 	background-color: rgb(255,136,77);
 }
+
 p {
 	padding: 5px;
 	margin: 10px;
@@ -75,5 +76,5 @@ p {
 @media (max-width: 767px) { /*for mobile*/
 	section {
 		width: 100%;
-		margin: 10px;
+		margin-top: 10px;
 	}
