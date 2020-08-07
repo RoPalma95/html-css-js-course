@@ -1,0 +1,97 @@
+body {
+	color: black;
+	background: lightblue;
+}
+
+#header-navbar {
+	background-color: rgb(0, 153, 255);
+	margin: 0;
+}
+.navbar-brand {     /*para que el nombre de la empresa no se salga del navbar*/
+	height: 100%;
+}
+
+.navbar-brand h1 {
+	margin: 10px 0;
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-nav a:hover {
+	color: gray;
+}
+
+li {
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+hr {
+	margin: 10px 0 0;
+}
+
+.navbar-nav {
+	margin: 0;
+}
+
+.navbar-header button.navbar-toggle, button.navbar-toggle .icon-bar {
+	border: 1px solid blue;
+}
+
+.navbar-header {
+	position: relative;
+}
+
+.navbar-header button.navbar-toggle {
+	position: absolute;
+	right: 0;
+	top: 25%;
+}
+
+/*END OF HEADER & NAVIGATION*/
+
+/*MAIN CONTENT*/
+
+#chicken, #beef, #sushi {
+	border: 1px solid black;
+	padding: 0 20px;
+	margin: 0 0 20px;
+}
+
+h2, h3 {
+	font-weight: bold;
+}
+
+#top {
+	margin: 20px 0;
+}
+
+#chicken {
+	background-color: rgba(255, 170, 128, 0.6);
+}
+
+#beef {
+	background-color: rgba(204, 153, 102, 0.6);
+}
+
+#sushi {
+	background-color: rgba(255, 153, 153, 0.6);
+}
+
+/* for extra small devices*/
+ @media (max-width: 767px) {
+
+ 	#collapsable-menu {
+		background-color: rgba(179, 179, 179, 0.6);
+	}
+ }
